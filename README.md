@@ -45,3 +45,28 @@ Navigate to your Git repository and run the `hello` command:
 
 ```bash
 python git_committer.py [OPTIONS]
+```
+## Example
+```
+python git_committer.py --fast
+```
+
+## This command will:
+
+* Check if the current directory is a Git repository.
+* Identify the active branch.
+* Check if the Ollama API is running.
+*Generate a commit message based on the changes in your repository using the mistral model.
+*Output
+* The tool will print various status messages to the console, indicating its progress and any issues encountered. If successful, it will display the generated commit message.
+
+# Contributing
+Feel free to fork this repository and submit pull requests. For major changes, please open an issue first to discuss what you would like to change.
+
+# License
+This project is licensed under the MIT License.
+
+# Acknowledgements
+* GitPython
+* Requests
+* Click
