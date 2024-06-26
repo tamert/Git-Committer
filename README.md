@@ -1,5 +1,8 @@
 # Git Committer
 
+![screenshot](bg.png)
+
+
 Git Committer is a command-line tool that assists in generating commit messages for your Git repository using the Ollama API. It checks the current state of your Git repository, identifies changes, and uses the `mistral` model from the Ollama API to suggest appropriate commit messages.
 
 ## Features

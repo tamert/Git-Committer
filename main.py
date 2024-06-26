@@ -63,7 +63,7 @@ def hello(fast=False, f=False):
     diff = from_repo.git.diff('origin/%s' % active_branch)
 
     if diff:
-        prompt = 'You are a machine which return a Git commit message. You use different as the programming language. I\'ll provide you with the code before and after the changes, so please give me the best commit message. Turkish language write please.'
+        prompt = 'You are a machine which return a Git commit message. You use different as the programming language. I\'ll provide you with the code before and after the changes, so please give me the best commit message.'
         if fast:
             prompt = 'You are a machine which return a Git commit message. Only the code before and after the changes, so please give me a basic commit message, fastly.'
 
